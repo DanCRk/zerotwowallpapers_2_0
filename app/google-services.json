@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586654042045",
+    "project_id": "zero-two-20",
+    "storage_bucket": "zero-two-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586654042045:android:7fda79a86fe136f39d34d4",
+        "android_client_info": {
+          "package_name": "com.futurefix.zerotwowallpapers20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586654042045-jj8fvlu161225nqooet4mhi5raeag5ad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOMlHp7bQfb1lEaBm0U5rUn-o7IaW3T2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586654042045-jj8fvlu161225nqooet4mhi5raeag5ad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

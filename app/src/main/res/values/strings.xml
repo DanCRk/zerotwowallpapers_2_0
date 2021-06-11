@@ -1,3 +1,106 @@
 <resources>
-    <string name="app_name">zerotwo wallpapers 2.0</string>
+    <string name="app_name">Zero Two Wallpapers 2.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="inicio">Inicio</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="perfil">Perfil</string>
+    <string name="login">Login</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="modo_oscurp">Modo oscuro</string>
+    <string name="apariencia">Apariencia</string>
+    <string name="columnas">Columnas</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_acercade">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="comparte_esta_aplicacion">¡Comparte esta aplicacion!</string>
+    <string name="desarrollada_por">desarrollada por</string>
+    <string name="nakano_s_wallpapers">Nakano´s Wallpapers</string>
+    <string name="confiapp">Configuración de Aplicación</string>
+    <string name="notifi">Notificaciones</string>
+    <string name="Otros">Otros</string>
+    <string name="privacidad">Aviso de privacidad</string>
+    <string name="calificanos">Califica nuestra app</string>
+    <string name="dats">Datos</string>
+
+    <string name="por">por</string>
+    <string name="muchotexto">RyuTec: Política de privacidad\n\n
+ RyuTec creó la aplicación Nakano´s Wallpapers como una aplicación con publicidad.  Este SERVICIO es proporcionado por RyuTec sin costo y está diseñado para usarse tal cual.\n\n
+
+ Esta página se utiliza para informar a los visitantes sobre nuestras políticas con la recopilación, uso y divulgación de Información personal si alguien decide utilizar mi Servicio.
+
+ Si elige utilizar mi Servicio, entonces acepta la recopilación y el uso de información en relación con esta política.  La información personal que recopilo se utiliza para
+        proporcionar y mejorar el servicio.  No usaré ni compartiré su información con nadie excepto como se describe en esta Política de Privacidad.\n\n
+
+ Recopilación y uso de información\n\n
+
+ Para una mejor experiencia, mientras utiliza nuestro Servicio, es posible que le solicite que nos proporcione cierta información de identificación personal.  La información
+        que solicito se conservará en su dispositivo y no la recopilaré de ninguna manera.\n\n
+
+ La aplicación utiliza servicios de terceros que pueden recopilar información utilizada para identificarlo.\n\n
+
+ Estos son los proveedores de servicios externos utilizados por la aplicación\n\n
+
+ AdMob\n\n
+
+ Quiero informarle que cada vez que usa nuestro Servicio, en caso de un error en la aplicación, recopilo datos e información (a través de productos de terceros) en su
+        teléfono llamado Datos de registro.  Estos Datos de registro pueden incluir información como la dirección de Protocolo de Internet ("IP") de su dispositivo, el
+        nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación cuando utiliza mi Servicio, la hora y fecha de su uso del
+        Servicio y otras estadísticas.\n\n
+
+ Cookies\n\n
+
+ Las cookies son archivos con una pequeña cantidad de datos que se utilizan comúnmente como identificadores únicos anónimos.  Estos se envían a su navegador desde los sitios
+        web que visita y se almacenan en la memoria interna de su dispositivo.\n\n
+
+ Este Servicio no utiliza estas "cookies" explícitamente.  Sin embargo, la aplicación puede utilizar códigos de terceros y bibliotecas que utilizan "cookies" para recopilar
+        información y mejorar sus servicios.  Tiene la opción de aceptar o rechazar estas cookies y saber cuándo se envía una cookie a su dispositivo.
+        Si opta por rechazar nuestras cookies, es posible que no pueda utilizar algunas partes de este Servicio.\n\n
+
+ Proveedores de servicio\n\n
+
+ Puedo emplear a empresas e individuos de terceros por las siguientes razones:\n\n
+
+ Para facilitar nuestro Servicio;\n
+ Para proporcionar el Servicio en nuestro nombre;\n
+ Para realizar servicios relacionados con el servicio;  o\n
+ Para ayudarnos a analizar cómo se utiliza nuestro Servicio.\n\n
+ Quiero informar a los usuarios de este Servicio que estos terceros tienen acceso a su Información personal.  El motivo es realizar las tareas que se les asignen en nuestro
+        nombre.  Sin embargo, están obligados a no divulgar ni utilizar la información para ningún otro propósito.\n\n
+
+ Seguridad\n\n
+
+ Valoro su confianza al proporcionarnos su información personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables para protegerla.  Pero recuerde que
+        ningún método de transmisión a través de Internet o método de almacenamiento electrónico es 100% seguro y confiable, y no puedo garantizar su absoluta seguridad.\n\n
+
+ Enlaces a otros sitios\n\n
+
+ Este Servicio puede contener enlaces a otros sitios.  Si hace clic en el enlace de un tercero, se le dirigirá a ese sitio.  Tenga en cuenta que estos sitios externos no son
+        operados por nosotros.  Por lo tanto, le recomiendo encarecidamente que revise la Política de privacidad de estos sitios web.  No tenemos control ni asumimos ninguna
+        responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros.\n\n
+
+ Privacidad de los niños\n\n
+
+ Estos Servicios no se dirigen a nadie menor de 13 años. No recopilamos a sabiendas información de identificación personal de niños menores de 13 años. En el caso de que descubramos que
+        un niño menor de 13 años nos ha proporcionado información personal, la eliminaremos inmediatamente de nuestros servidores.  Si usted es padre o tutor y sabe que su
+        hijo nos ha proporcionado información personal, comuníquese con nosotros para que podamos realizar las acciones necesarias.\n\n
+
+ Cambios a esta política de privacidad\n\n
+
+ Puedo actualizar nuestra Política de privacidad de vez en cuando.  Por lo tanto, le recomendamos que revise esta página periódicamente para ver si hay cambios.  Le notificarémos cualquier
+        cambio publicando la nueva Política de privacidad en esta página.  Estos cambios entran en vigencia inmediatamente después de su publicación en esta página.\n\n
+    </string>
+    <string name="RyuTec">RyuTec</string>
+    <string name="nunca_wallpaper_scrollable">Nunca wallpaper scrollable</string>
+    <string name="columnas_">Columnas: </string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="ajustes">Ajustes</string>
+
 </resources>

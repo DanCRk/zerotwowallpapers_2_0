@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="RtlSymmetry"
+    android:background="@color/principal">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/drawer_toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/fuente_medium"
+        android:text="@string/apariencia" />
+
+    <!--<androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_modooscuro"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modo_oscurp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_selector"
+        android:id="@+id/clickColumnas">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="25dp"
+            android:fontFamily="@font/fuente_medium"
+            android:text="@string/columnas"
+            android:textColor="@color/color_texto"/>
+
+        <TextView
+            android:id="@+id/cuantas_columnas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="25dp"
+            android:text="Columnas: 3 x 3"
+            android:paddingBottom="15dp" />
+
+    </LinearLayout>-->
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nunca_wallpaper_scrollable"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_selector"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="13dp"
+        android:textColor="@color/color_texto"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/dats"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <TextView
+        android:id="@+id/AppConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="25dp"
+        android:background="@drawable/bg_selector"
+        android:layout_marginBottom="5dp"
+        android:text="@string/confiapp"
+        android:textColor="@color/color_texto"
+        android:fontFamily="@font/fuente_medium" />
+
+    <TextView
+        android:id="@+id/Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="25dp"
+        android:background="@drawable/bg_selector"
+        android:text="@string/notifi"
+        android:textColor="@color/color_texto"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Otros"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <TextView
+        android:id="@+id/Aviso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="25dp"
+        android:background="@drawable/bg_selector"
+        android:layout_marginBottom="5dp"
+        android:text="@string/privacidad"
+        android:textColor="@color/color_texto"
+        android:fontFamily="@font/fuente_medium"/>
+
+    <TextView
+        android:id="@+id/Calificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="25dp"
+        android:background="@drawable/bg_selector"
+        android:text="@string/calificanos"
+        android:textColor="@color/color_texto"
+        android:fontFamily="@font/fuente_medium"/>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <!--
+        <item
+            android:id="@+id/upgrade_menu"
+            android:title="@string/upgrade"
+            android:checkable="true"
+            android:icon="@drawable/ic_upgrade">
+        </item>
+        -->
+        <item
+            android:id="@+id/inicio_menu"
+            android:title="@string/inicio"
+            android:checkable="true"
+            android:icon="@drawable/ic_home">
+        </item>
+        <!--
+        <item
+            android:id="@+id/favoritos_menu"
+            android:title="@string/favoritos"
+            android:checkable="true"
+            android:icon="@drawable/ic_favorito">
+        </item>
+        <item
+            android:id="@+id/perfil_menu"
+            android:title="@string/perfil"
+            android:checkable="true"
+            android:icon="@drawable/ic_perfil">
+        </item>
+        -->
+        <item
+            android:id="@+id/calificanos_menu"
+            android:title="Calificanos"
+            android:checkable="true"
+            android:icon="@drawable/ic_calificanos">
+        </item>
+        <item
+            android:id="@+id/configuracion_menu"
+            android:title="Configuracion"
+            android:checkable="true"
+            android:icon="@drawable/ic_ajustes">
+        </item>
+        <item
+            android:id="@+id/comparte_menu"
+            android:title="Comparte"
+            android:icon="@drawable/ic_comparte"/>
+        <item
+            android:id="@+id/info_menu"
+            android:title="Acerca de"
+            android:icon="@drawable/ic_info"/>
+    </group>
+
+
+</menu>
