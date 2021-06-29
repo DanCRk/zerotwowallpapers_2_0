@@ -7,6 +7,7 @@ public class Auxiliar {
 
     public static Boolean estadoactualCheckBox;
     public static int estadoSelectorColumnas=2;
+    public static Boolean cambiaronColumnas=false;
     /*
     * 1 x 1 el estado es 0
     * 2 x 2 el estado es 1

@@ -27,7 +27,8 @@
         android:textColor="@color/secundario_dark"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColorHint="@color/color_texto"/>
 
     <TextView
         android:id="@+id/PorTextView"

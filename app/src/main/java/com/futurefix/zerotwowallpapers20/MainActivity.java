@@ -28,14 +28,6 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 import com.google.android.material.navigation.NavigationView;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import org.jetbrains.annotations.NotNull;
-
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
     DrawerLayout drawerLayout;
@@ -66,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         cargarAdd();
 
-        url= "https://play.google.com/store/apps/details?id=com.futurefix.wallsnakano";
+        url= "https://play.google.com/store/apps/details?id=com.futurefix.zerotwowallpapers20";
 
         // Referenciar las weas locas
         textoToolbar = findViewById(R.id.texto_toolbar);

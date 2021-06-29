@@ -56,7 +56,6 @@ public class ZeroFragment extends Fragment {
         cargarLista();
         // Cargar Datos
         cargarDatos();
-        Objects.requireNonNull(rc.getAdapter()).notifyDataSetChanged();
         return view;
     }
 
@@ -83,7 +82,6 @@ public class ZeroFragment extends Fragment {
                 break;
         }
         rc.setAdapter(adapter);
-        Objects.requireNonNull(rc.getAdapter()).notifyDataSetChanged();
     }
 
     public void cargarDatos() {
@@ -127,6 +125,9 @@ public class ZeroFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        cargarLista();
+        if (Auxiliar.cambiaronColumnas){
+            cargarLista();
+            Auxiliar.cambiaronColumnas=false;
+        }
     }
 }

@@ -145,6 +145,7 @@ public class ConfigActivity extends AppCompatActivity{
 
         mBuilder.setPositiveButton(R.string.set, (dialog, which) -> {
             cuantasColumnas.setText(String.format("Ahora: %s", lista[cual]));
+            Auxiliar.cambiaronColumnas =true;
             dialog.dismiss();
         });
 
