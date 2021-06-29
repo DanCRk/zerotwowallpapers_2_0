@@ -13,18 +13,13 @@
         </item>
         -->
         <item
-            android:id="@+id/inicio_menu"
-            android:title="@string/inicio"
-            android:checkable="true"
-            android:icon="@drawable/ic_home">
-        </item>
-        <!--
-        <item
             android:id="@+id/favoritos_menu"
             android:title="@string/favoritos"
             android:checkable="true"
             android:icon="@drawable/ic_favorito">
         </item>
+        <!--
+
         <item
             android:id="@+id/perfil_menu"
             android:title="@string/perfil"

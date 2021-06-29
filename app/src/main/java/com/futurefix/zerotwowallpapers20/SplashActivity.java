@@ -19,6 +19,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SplashActivity extends AppCompatActivity {
 
+    boolean reintentar = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,6 +90,7 @@ public class SplashActivity extends AppCompatActivity {
         builder.setCancelable(false);
         builder.setPositiveButton(R.string.cerrar, (dialog, which) -> finish());
         builder.setNegativeButton(R.string.ajustes, (dialog, which) -> startActivity(new Intent(Settings.ACTION_WIFI_SETTINGS)));
+        // builder.setNeutralButton(R.string.reintentar, (dialog, which) -> reintentar=true);
         return builder;
     }
 }

@@ -13,6 +13,17 @@
         android:background="@color/principal"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <ImageButton
+            android:id="@+id/botonatras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_atras"
+            android:background="@android:color/transparent"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/atras"
+            android:visibility="gone"/>
+
         <TextView
             android:id="@+id/texto_toolbar"
             android:layout_width="wrap_content"

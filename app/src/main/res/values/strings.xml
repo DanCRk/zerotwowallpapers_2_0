@@ -14,14 +14,12 @@
     <string name="apariencia">Apariencia</string>
     <string name="columnas">Columnas</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
     <string name="title_activity_acercade">FullscreenActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="comparte_esta_aplicacion">¡Comparte esta aplicacion!</string>
     <string name="desarrollada_por">desarrollada por</string>
-    <string name="nakano_s_wallpapers">Nakano´s Wallpapers</string>
+    <string name="ZeroTwoWpp">Zero Two 2.0 Wallpapers</string>
     <string name="confiapp">Configuración de Aplicación</string>
     <string name="notifi">Notificaciones</string>
     <string name="Otros">Otros</string>
@@ -102,5 +100,10 @@
     <string name="configuraciones">Configuraciones</string>
     <string name="cerrar">Cerrar</string>
     <string name="ajustes">Ajustes</string>
+    <string name="columnas_3_x_3">Ahora: 3 x 3</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="set">Establecer</string>
+    <string name="atras">Atras</string>
+    <string name="reintentar">REINTENTAR</string>
 
 </resources>

@@ -22,13 +22,13 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class WallpaperAdapterWppsCateg extends RecyclerView.Adapter<WallpaperAdapterWppsCateg.WallpaperHolder>{
+public class WallpaperAdapterFav extends RecyclerView.Adapter<WallpaperAdapterFav.WallpaperHolder>{
     List<Wallpaper> lista;
     int layout;
     Activity activity;
     Context context;
 
-    public WallpaperAdapterWppsCateg(List<Wallpaper> lista, int layout, Activity activity, Context context) {
+    public WallpaperAdapterFav(List<Wallpaper> lista, int layout, Activity activity, Context context) {
         this.lista = lista;
         this.layout = layout;
         this.activity = activity;
@@ -52,6 +52,9 @@ public class WallpaperAdapterWppsCateg extends RecyclerView.Adapter<WallpaperAda
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(v.getContext(), VistaWallpaper.class);
             intent.putExtra("ItemUrl", wallpaper.getUrl());
+            intent.putExtra("position", position);
+            intent.putExtra("identi", 1);
+            intent.putExtra("wpp", wallpaper);
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(intent);
         });
