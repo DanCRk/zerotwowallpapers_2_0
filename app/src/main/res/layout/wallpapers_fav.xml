@@ -31,6 +31,6 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-2030839089746380/9473721999"/>
+        app:adUnitId="ca-app-pub-2030839089746380/9170496287"/>
 
 </RelativeLayout>

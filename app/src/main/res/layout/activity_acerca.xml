@@ -11,7 +11,7 @@
         android:id="@+id/imagen_logo"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/ic_nakanoswpps"
+        android:src="@drawable/ic_app"
         app:layout_constraintBottom_toTopOf="@+id/nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

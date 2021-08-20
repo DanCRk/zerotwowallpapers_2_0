@@ -16,7 +16,7 @@
         android:layout_marginBottom="36dp"
         android:paddingLeft="80dp"
         android:paddingRight="80dp"
-        android:src="@drawable/ic_nakanoswpps"
+        android:src="@drawable/ic_app"
         app:layout_constraintBottom_toTopOf="@+id/FutureFixTextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

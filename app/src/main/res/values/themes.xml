@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ZerotwoWallpapers20." parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.ZerotwoWallpapers20" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/principal</item>
         <item name="colorPrimaryVariant">@color/principal_dark</item>
